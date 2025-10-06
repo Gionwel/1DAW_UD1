@@ -3,10 +3,10 @@ package poo.personas;
 public class Persona {
 
 	
-	// nombre, edad, estatura
+	
 	String nombre;
 	int edad;
-	double estatura;
+	double estatura; 
 	
 	void saludar() {
 		System.out.println("Hola!!!");
