@@ -4,15 +4,15 @@ public class Persona {
 
 	
 	
-	String nombre;
+	String nombre = "";
 	int edad;
 	double estatura; 
 	
 	static String diaDeLaSemana = "Martes";       
 	
-	static saludar() {
+	void saludar1() {
 		System.out.println("Hola mi nombre es " + this.nombre);
-		System.out.println("T estamos a " + diadelasemana " + this.nombre);
+		System.out.println("T estamos a " + diaDeLaSemana +" "+this.nombre);
 		
 		
 	}

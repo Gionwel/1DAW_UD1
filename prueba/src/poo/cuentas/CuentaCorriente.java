@@ -12,9 +12,9 @@ package poo.cuentas;
 public class CuentaCorriente {
 
     // Atributos (datos de la cuenta)
-    String dni;
-    String nombre;
-    double saldo;
+	String dni;
+    public String nombre;
+    private double saldo;
 
     // Constructor: se necesita DNI y nombre, saldo inicial = 0
     public CuentaCorriente(String dni, String nombre) {
